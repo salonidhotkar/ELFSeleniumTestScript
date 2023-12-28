@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[URL Entered]]>
+    </line>
+    <line>
+      <![CDATA[Email address Entered Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Password  Entered Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Books]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on ComputingInternet]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on AddToCart]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on ShoppingCart]]>
+    </line>
+    <line>
+      <![CDATA[Product is Selected]]>
+    </line>
+    <line>
+      <![CDATA[Product is removed from shoppingcart]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-28T16:51:40 IST" name="Default suite" finished-at="2023-12-28T16:51:54 IST" duration-ms="14286">
+    <groups>
+    </groups>
+    <test started-at="2023-12-28T16:51:40 IST" name="Default test" finished-at="2023-12-28T16:51:54 IST" duration-ms="14286">
+      <class name="demowebshope.TC__RemoveFromCart_003_Test">
+        <test-method is-config="true" signature="browseSetup()[pri:0, instance:demowebshope.TC__RemoveFromCart_003_Test@4afcd809]" started-at="2023-12-28T16:51:40 IST" name="browseSetup" finished-at="2023-12-28T16:51:48 IST" duration-ms="7774" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[URL Entered]]>
+            </line>
+            <line>
+              <![CDATA[Email address Entered Succesfully]]>
+            </line>
+            <line>
+              <![CDATA[Password  Entered Succesfully]]>
+            </line>
+            <line>
+              <![CDATA[Login Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browseSetup -->
+        <test-method signature="remove()[pri:0, instance:demowebshope.TC__RemoveFromCart_003_Test@4afcd809]" started-at="2023-12-28T16:51:48 IST" name="remove" finished-at="2023-12-28T16:51:54 IST" duration-ms="6463" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Books]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on ComputingInternet]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on AddToCart]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on ShoppingCart]]>
+            </line>
+            <line>
+              <![CDATA[Product is Selected]]>
+            </line>
+            <line>
+              <![CDATA[Product is removed from shoppingcart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- remove -->
+      </class> <!-- demowebshope.TC__RemoveFromCart_003_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
