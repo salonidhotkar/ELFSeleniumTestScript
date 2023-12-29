@@ -35,9 +35,9 @@ public class TC_Wishlist_004_Test extends Basescript {
 		//checked item is Whishlisted
 		if(driver.findElement(By.xpath("//div[@class='page wishlist-page']")).isDisplayed())
 				{
-			        Reporter.log("Product is added to whishlist");
+			        Reporter.log("Product is added to whishlist",true);
 				}else {
-					Reporter.log("Product is added to whishlist");
+					Reporter.log("Product is added to whishlist",true);
 				}
 				
 
