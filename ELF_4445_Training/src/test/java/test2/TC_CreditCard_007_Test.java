@@ -3,8 +3,8 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import genriclibrary.BasePage;
-import genriclibrary.Basescript;
+import base.BasePage;
+import base.Basescript;
 import genriclibrary.CreditCardPage;
 import genriclibrary.Excellib;
 /***

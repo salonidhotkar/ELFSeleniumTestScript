@@ -2,8 +2,8 @@ package demowebshope;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import genriclibrary.BasePage;
-import genriclibrary.Basescript;
+import base.BasePage;
+import base.Basescript;
 import genriclibrary.PlacingOrderPage;
 /***
  * @author User
@@ -72,7 +72,7 @@ public class TC_PlacingOrder_006 extends Basescript {
 	order.getPaymentbuttoninfo().click();
 	Reporter.log("clicked on paymentinfo continue button",true );
 	
-	//clicl on conform
+	//click on conform
 	order.getConfirm().click();
 	Reporter.log("Clicked on Conformbutton",true);
 	

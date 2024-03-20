@@ -4,8 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import genriclibrary.BasePage;
-import genriclibrary.Basescript;
+import base.BasePage;
+import base.Basescript;
 import genriclibrary.TopPage;
 /***
  * @author User

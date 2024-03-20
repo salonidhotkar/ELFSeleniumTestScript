@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parameter.Understandingparameter_Test$Roadster">
+      <class name="test2.TC_CreditCard_007_Test">
         <methods>
-          <include name="roadster"/>
+          <include name="browseSetup"/>
+          <include name="Creditcard"/>
         </methods>
-      </class> <!-- parameter.Understandingparameter_Test$Roadster -->
+      </class> <!-- test2.TC_CreditCard_007_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

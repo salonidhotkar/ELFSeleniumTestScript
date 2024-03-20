@@ -4,8 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import genriclibrary.BasePage;
-import genriclibrary.Basescript;
+import base.BasePage;
+import base.Basescript;
 import genriclibrary.BooksPage;
 /***
  * @author User
@@ -31,6 +31,7 @@ public class TC_AddToShoppingCart_002_Test extends Basescript {
 		Reporter.log("Clicked on ComputingInternet",true);
 		
 		//Click on Addtocart button
+		
 		base.getAddtocartlink().click();
 		Reporter.log("Clicked on AddToCart",true);
 		

@@ -1,4 +1,4 @@
-package genriclibrary;
+package base;
 
 import java.time.Duration;
 

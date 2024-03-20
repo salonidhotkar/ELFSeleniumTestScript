@@ -1,4 +1,4 @@
-package genriclibrary;
+package base;
 
 import org.jsoup.internal.FieldsAreNonnullByDefault;
 import org.openqa.selenium.WebDriver;

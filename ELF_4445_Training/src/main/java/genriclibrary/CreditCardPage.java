@@ -7,6 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 
+import base.BasePage;
+
 public class CreditCardPage extends BasePage {
 
 	public CreditCardPage(WebDriver driver) {

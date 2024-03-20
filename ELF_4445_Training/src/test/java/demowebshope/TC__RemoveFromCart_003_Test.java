@@ -2,8 +2,8 @@ package demowebshope;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import genriclibrary.BasePage;
-import genriclibrary.Basescript;
+import base.BasePage;
+import base.Basescript;
 import genriclibrary.BooksPage;
 /***
  * @author User

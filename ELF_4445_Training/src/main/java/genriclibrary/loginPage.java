@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import base.BasePage;
+
 public class loginPage extends BasePage  {
 
 	public loginPage(WebDriver driver) {
